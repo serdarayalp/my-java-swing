@@ -26,7 +26,7 @@ public class MyApplication extends JFrame {
 
         jPanel.setLayout(new BorderLayout());
         jPanelNavi.setLayout(new BoxLayout(jPanelNavi, BoxLayout.Y_AXIS));
-        jPanelMenu.setLayout(new FlowLayout());
+        jPanelMenu.setLayout(new FlowLayout(FlowLayout.LEFT));
 
         NavigationButtonListener navigationButtonListener = new NavigationButtonListener();
         ContentButtonListener contentButtonListener = new ContentButtonListener();
